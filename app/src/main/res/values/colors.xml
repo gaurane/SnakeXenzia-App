@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base Colors -->
+    <color name="primary_color">#4CAF50</color> <!-- Green -->
+    <color name="primary_dark_color">#388E3C</color> <!-- Dark Green -->
+    <color name="accent_color">#FFC107</color> <!-- Amber -->
+
+    <!-- Text Colors -->
+    <color name="text_color">#FFFFFF</color> <!-- White Text -->
+    <color name="secondary_text_color">#B0B0B0</color> <!-- Light Gray Text -->
+
+    <!-- Button Colors -->
+    <color name="button_background">#388E3C</color> <!-- Dark Green for buttons -->
+    <color name="button_text_color">#FFFFFF</color> <!-- White Text for buttons -->
+
+    <!-- Game Over Color -->
+    <color name="game_over_color">#F44336</color> <!-- Red for Game Over -->
+
+</resources>

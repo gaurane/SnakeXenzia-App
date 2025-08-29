@@ -1,0 +1,24 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.snakexenzia">
+
+    <application
+        android:allowBackup="true"
+        android:label="Snake Xenzia"
+        android:icon="@mipmap/snakelauncher"
+        android:roundIcon="@mipmap/snakelauncher_round"
+        android:theme="@style/Theme.SnakeXenzia">
+
+        <!-- SplashActivity as the launcher -->
+        <activity android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- GameActivity -->
+        <activity android:name=".GameActivity" android:exported="true"/>
+    </application>
+</manifest>
